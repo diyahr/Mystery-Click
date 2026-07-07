@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Story ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#141414;
+color:white;
+text-align:center;
+}
+
+.card{
+max-width:700px;
+padding:40px;
+}
+
+h1{
+font-size:60px;
+margin-bottom:20px;
+color:#e50914;
+}
+
+p{
+font-size:22px;
+line-height:1.6;
+margin-bottom:30px;
+}
+
+button{
+background:#e50914;
+color:white;
+border:none;
+padding:15px 35px;
+font-size:20px;
+border-radius:8px;
+cursor:pointer;
+}
+
+#letter{
+display:none;
+margin-top:30px;
+font-size:22px;
+line-height:1.8;
+background:rgba(255,255,255,0.1);
+padding:25px;
+border-radius:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>OUR STORY ❤️</h1>
+
+<p>
+A series with laughter, chaos, memories,
+and my favorite person.
+</p>
+
+<button onclick="playMovie()">▶ Play</button>
+
+<div id="letter">
+🥰 Dear Love,<br><br>
+
+If life gave me a thousand choices,
+I would still choose you.
+
+Thank you for every smile,
+every call,
+every memory,
+and every moment you've made special.
+
+You are my favorite chapter,
+my favorite notification,
+and my favorite person.
+
+❤️ Forever yours ❤️
+</div>
+
+</div>
+
+<script>
+function playMovie(){
+document.getElementById("letter").style.display="block";
+}
+</script>
+
+</body>
+</html>
